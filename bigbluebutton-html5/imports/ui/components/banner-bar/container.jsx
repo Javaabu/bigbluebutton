@@ -3,6 +3,6 @@ import { withTracker } from 'meteor/react-meteor-data';
 import BannerComponent from './component';
 
 export default withTracker(() => ({
-  color: Session.get('bannerColor') || '#0F70D7',
+  color: Session.get('bannerColor') || '#15cdaf',
   text: Session.get('bannerText') || '',
 }))(BannerComponent);
